@@ -28,6 +28,7 @@ Clone the project to your local machine:
 ```bash
 git clone https://github.com/mikkelsons/watched-movie-list.git
 cd watched-movie-list
+```
 
 ### 2. Obtain an OMDB API Key
 The application uses the OMDB API to fetch movie data. You need an API key to use it:
@@ -35,14 +36,15 @@ Visit the OMDB API website.
 
 Click "Get an API Key" and follow the instructions to sign up.
 
-You’ll receive an API key via email (e.g., 12345678).
+You’ll receive an API key via email (e.g., "1234abcd").
 
 ### 3. Set Up Environment Variables
 The project requires an environment variable for the OMDB API key. Follow these steps:
 Copy the provided .env.example file to create a new .env file:
-bash
 
+```bash
 cp .env.example .env
+```
 
 Open the .env file in a text editor.
 
@@ -60,15 +62,17 @@ Save the .env file. Do not commit the .env file to version control, as it contai
 
 ### 4. Install Dependencies
 Install the required Node.js packages:
-bash
 
+```bash
 npm install
+```
 
 ### 5. Run the Application
 Start the development server:
-bash
 
+```bash
 npm start
+```
 
 The app will open in your default browser at http://localhost:3000.
 
@@ -76,9 +80,10 @@ Search for movies, view details, rate them, and manage your watched list.
 
 ### 6. Build for Production (Optional)
 To create a production-ready build:
-bash
 
+```bash
 npm run build
+```
 
 The optimized files will be generated in the build folder.
 Project Structure
@@ -103,7 +108,7 @@ Rate Movies: Use the star rating component to rate a movie, then click "Add to l
 
 Manage Watched List: View your watched movies, including average ratings and runtime, in the right panel. Click a movie to revisit its details or use the "X" button to remove it.
 
-Keyboard Shortcuts:
+### Keyboard Shortcuts:
 Press Enter to focus the search bar and clear the current query.
 
 Press Escape to close the movie details view.
@@ -113,9 +118,10 @@ API Key Issues:
 If you see an "Invalid API key" error, ensure REACT_APP_API_KEY is correctly set in the .env file and matches your OMDB API key.
 
 Restart the development server after modifying .env:
-bash
 
+```bash
 npm start
+```
 
 No Movies Found:
 Ensure your search query is at least 3 characters long (required by the app’s logic).
@@ -126,20 +132,14 @@ Compilation Errors:
 If you encounter Webpack errors related to dotenv, ensure you haven’t manually imported dotenv in your code (e.g., import dotenv from 'dotenv'). Create React App handles environment variables automatically.
 
 Clear the cache and reinstall dependencies:
-bash
 
+```bash
 rm -rf node_modules package-lock.json
 npm install
 npm start
+```
 
 ## Security Notes
 The OMDB API key is exposed in client-side code, which is acceptable for this public API. For sensitive APIs, use a backend server to proxy requests and hide the key.
 
 Ensure the .env file is not committed to your repository. The .gitignore file already excludes it.
-
-## Dependencies
-React: Frontend library for building the UI.
-
-react-scripts: Create React App scripts for development and building.
-
-Other dependencies are listed in package.json.
