@@ -13,6 +13,9 @@ Watched Movie List is a React application that allows users to search for movies
 
 ## Screenshots
 https://github.com/mikkelsons/watched-movie-list/blob/main/screenshots/Screenshot%202025-05-24%20175610.png?raw=true
+https://raw.githubusercontent.com/mikkelsons/watched-movie-list/main/screenshots/Screenshot%202025-05-24%20175610.png
+
+
 
 ## Prerequisites
 
