@@ -12,6 +12,7 @@ Watched Movie List is a React application that allows users to search for movies
 - **Responsive UI**: A clean, responsive interface with collapsible sections for movie lists and details.
 
 ## Screenshots
+<img src="https://raw.githubusercontent.com/mikkelsons/watched-movie-list/main/screenshots/Screenshot%202025-05-24%20175610.png" alt="Watched Movie screenshot 1" width="300">
 ![Watched Movie screenshot 1](https://raw.githubusercontent.com/mikkelsons/watched-movie-list/main/screenshots/Screenshot%202025-05-24%20175610.png)
 https://github.com/mikkelsons/watched-movie-list/blob/main/screenshots/Screenshot%202025-05-24%20175610.png?raw=true
 https://raw.githubusercontent.com/mikkelsons/watched-movie-list/main/screenshots/Screenshot%202025-05-24%20175610.png
