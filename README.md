@@ -1,6 +1,6 @@
 # Watched Movie List
 
-Watched Movie List is a React application that allows users to search for movies, view detailed information, rate movies, and maintain a list of watched movies. It uses the [OMDB API](http://www.omdbapi.com/) to fetch movie data and includes features like local storage for saving watched movies and a star rating system.
+Watched Movie List is a React application that allows users to search for movies, view detailed information, rate movies, and maintain a list of watched movies. It uses the [OMDB API](http://www.omdbapi.com/) to fetch movie data and includes features like local storage for saving watched movies and a star rating system. I built this application as a guided project for the Udemy course "The Ultimate React Course 2025: React, Next.js, Redux & More" taught by Jonas Schmedtmann.
 
 ## Features
 
