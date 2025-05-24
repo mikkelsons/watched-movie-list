@@ -11,6 +11,9 @@ Watched Movie List is a React application that allows users to search for movies
 - **Local Storage**: Persist watched movies across sessions using browser local storage.
 - **Responsive UI**: A clean, responsive interface with collapsible sections for movie lists and details.
 
+## Screenshots
+https://github.com/mikkelsons/watched-movie-list/blob/main/screenshots/Screenshot%202025-05-24%20175610.png?raw=true
+
 ## Prerequisites
 
 Before setting up the project, ensure you have the following installed:
