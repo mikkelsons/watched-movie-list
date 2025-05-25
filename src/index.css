@@ -166,7 +166,7 @@ body {
 }
 
 .list.list-movies li {
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: all 0.3s;
 }
 
